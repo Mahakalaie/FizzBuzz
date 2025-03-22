@@ -16,9 +16,7 @@ public class Main {
             for (Integer key : gameVersion1.numbersAndWordsOfGame.keySet()) {
 
                 if(i % key == 0)
-                {
                     output = output.concat(gameVersion1.numbersAndWordsOfGame.get(key));
-                }
 
             }
 
